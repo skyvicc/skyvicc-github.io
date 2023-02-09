@@ -1,0 +1,140 @@
+:root{
+    --font-color: #00f2ff;
+    --whitee: rgb(255, 255, 255);
+    --color: #3262a9;
+    --background-color:#0d193d;
+}
+*{
+    font-family: sans-serif;
+}
+html{
+    background-color: #0e1f50;
+}
+
+.gitImg{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 800ms;
+}
+.gitImg:hover{
+    opacity: 0.4;
+}
+.upper{
+    background-color: var(--background-color);
+    color: var(--whitee);
+    height: 3.5rem;
+    box-shadow: 1px 1px 10px 1px rgb(54, 51, 109);
+}
+.curly, .latest, .gitImg, .corner, .comDec, .blogDec{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.corner{
+    margin-left:calc(100vw/12);
+}
+.gitImg, .blogDec, .comDec{
+    float: right;
+    margin-right: 1rem;
+    transition: 700ms;
+}
+.blogDec:hover, .comDec:hover{
+    color: rgb(255, 45, 223);
+    cursor: pointer;
+}
+.latest{
+    font-size: 1rem;
+    border: transparent;
+    background-color: transparent;
+    color:var(--font-color);
+    padding:0.3rem;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: 1.5s;
+}
+.latest:hover{
+    cursor: pointer;
+    background-color: rgb(60, 195, 195);
+    color: rgb(0, 0, 0);
+}
+.curly{
+    margin-left: 0.5rem;
+}
+.listSection{
+    border: transparent;
+    box-shadow: 2px 3px 5px  black;
+    width:17rem;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top:3rem ;
+    margin-left: 1rem;
+    background-color: #135a80;
+    /* padding-left: 2rem; */
+    transition: 1.2s;
+}
+.listSection:hover{
+    transform: scale(115%);
+    background-color: #1a74a5;
+    box-shadow: 3px 4px 9px  black;
+}
+.p{
+    padding-left: 2rem;
+    color:rgb(223, 211, 197);
+    cursor: pointer;
+    transition: 500ms;
+}
+.p:hover{
+    color:rgb(120, 0, 90);
+    transform: scale(120%);
+}
+.intro, .learning{
+    text-decoration: underline;
+    padding-left: 1rem;
+    color:rgb(255, 255, 255);
+    transition: 500ms;
+}
+.intro:hover{
+    color: black;
+    cursor: pointer;
+}
+main{
+    margin-top: 2rem;
+    margin-right: 1.5;
+    width: 55rem;
+    float: left;
+    vertical-align: bottom;
+    /* border-right: black solid 2px; */
+}
+.openingPhrase{
+    font-size: 2rem;
+    color:white;
+}
+.underling{
+    font-size: 1.3rem;
+    text-decoration: underline;
+    color: lightgray;
+}
+
+td{
+    height: 10rem;
+    width: 23rem;
+    border: solid gray 0.2rem;
+    padding:1rem;
+    transition: 300ms 10ms;
+    color: rgb(181, 154, 244);
+}
+td:hover{
+    border: 0.2rem solid #00f2ff;
+    background-color:#203985;
+}
+.strong{
+    padding:1rem;
+    font-size: 1.5rem;
+    color: #00f2ff;
+
+}
+a{
+    color: inherit
+}
